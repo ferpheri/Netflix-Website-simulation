@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="icon" href="logo.png" type="image/png" />
+    <title>NetfLix - watch TV Show Online - Watch Movies Online</title>
+  </head>
+  <body class="font-my-font bg-black text-[#999]">
+    <header
+      class="after:content-* relative h-93vh bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/ff5587c5-1052-47cf-974b-a97e3b4f0656/e1864a83-e1a8-4246-8d4a-a92057504757/BH-en-20240506-popsignuptwoweeks-perspective_alpha_website_large.jpg')] bg-cover bg-center bg-no-repeat after:absolute after:left-0 after:top-0 after:z-10 after:h-full after:w-full after:bg-[rgba(0,0,0,0.6)] after:shadow-3xl"
+    >
+      <div class="relative z-20 h-[90px]">
+        <img
+          src="https://i.ibb.co/r5krrdz/logo.png"
+          class="logo absolute left-[5%] top-[30%] w-[170px] transform-none md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2"
+          alt="Netflix"
+        />
+        <a
+          href="#"
+          class="btn absolute right-0 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-[5px] px-5 py-2 text-base hover:opacity-90"
+          >Sign In</a
+        >
+      </div>
+      <div
+        class="relative z-20 m-auto mt-36 flex flex-col items-center justify-center text-center"
+      >
+        <h1
+          class="big-text mb-8 text-[5.2rem] font-bold leading-[1.1] text-white"
+        >
+          See What's Next
+        </h1>
+        <p
+          class="parag mx-0 my-2 mb-8 text-[1.9rem] font-normal uppercase leading-tight text-white"
+        >
+          Watch anywhere. Cancel anytime.
+        </p>
+        <a
+          href="#"
+          class="btn big-btn px-[1.3rem] py-[0.8rem] text-4xl uppercase hover:opacity-90"
+        >
+          Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i>
+        </a>
+      </div>
+    </header>
+
+    <section
+      class="border-b-[3px] border-solid border-[#3d3d3d] bg-[var(--dark-color)] pt-4"
+    >
+      <div
+        class="my-container grid grid-cols-3 items-center justify-center gap-4 text-center"
+      >
+        <div
+          id="tab1"
+          class="tab-item flex flex-col items-center border-b-4 border-b-[var(--primary-color)] px-0 py-6 hover:cursor-pointer hover:text-white"
+        >
+          <i class="fas fa-door-open fa-3x"></i>
+          <p class="hidden pt-2 text-[1.2rem] md:inline-flex">Cancel Anytime</p>
+        </div>
+        <div
+          id="tab2"
+          class="tab-item flex flex-col items-center px-0 py-6 hover:cursor-pointer hover:text-white"
+        >
+          <i class="fas fa-tablet-alt fa-3x"></i>
+          <p class="hidden pt-2 text-[1.2rem] md:inline-flex">Watch Anywhere</p>
+        </div>
+        <div
+          id="tab3"
+          class="tab-item flex flex-col items-center px-0 py-6 hover:cursor-pointer hover:text-white"
+        >
+          <i class="fas fa-tags fa-3x"></i>
+          <p class="hidden pt-2 text-[1.2rem] md:inline-flex">
+            Pick Your Price
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="tab-content bg-black px-0 py-12 text-white">
+      <div class="my-container">
+        <!-- Tab Content 1 -->
+        <div id="tab1-content" class="tab-content-item show">
+          <div class="grid grid-cols-2 items-center justify-center gap-8">
+            <div>
+              <p class="mb-4 text-[1.8rem]">
+                If you decide NetfLix isn't for you - no problem. No commitment.
+                Cancel online anytime.
+              </p>
+              <a
+                href="#"
+                class="btn rounded-[2px] px-[1.3rem] py-[0.8rem] text-[1rem] uppercase"
+                >Watch Free For 30 Days</a
+              >
+            </div>
+            <img
+              src="https://i.ibb.co/J2xDJV7/tab-content-1.png"
+              alt="tab-1-content"
+            />
+          </div>
+        </div>
+
+        <!-- Tab Content 2 -->
+        <div id="tab2-content" class="tab-content-item hidden">
+          <div
+            class="tab-2-content-top grid grid-cols-[2fr,1fr] items-center justify-center gap-4"
+          >
+            <p class="text-xl">
+              Watch TV shows and movies anytime, anywhere - personalized for
+              you.
+            </p>
+            <a
+              href="#"
+              class="btn w-64 rounded-[2px] px-[1.3rem] py-[0.8rem] text-[1rem] uppercase"
+              >watch free for 30 days</a
+            >
+          </div>
+          <div
+            class="tab-2-content-bottom mt-8 grid grid-cols-3 items-center justify-center gap-8 text-center"
+          >
+            <div>
+              <img
+                src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png"
+                alt="tv"
+              />
+              <p class="mb-4 text-2xl">Watch on your TV</p>
+              <p class="text-gray-500">
+                Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+                players, and more.
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png"
+                alt="tv"
+              />
+              <p class="mb-4 text-2xl">Watch instantly or download for later</p>
+              <p class="text-gray-500">
+                Available on phone and tablet, wherever you go
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png"
+                alt="tv"
+              />
+              <p class="mb-4 text-2xl">Use any computer</p>
+              <p class="text-gray-500">Watch right on Netflix.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3 Content -->
+        <div id="tab3-content" class="tab-content-item hidden">
+          <div class="text-center">
+            <p class="mb-4 text-[1.8rem]">
+              Choose one plan and watch everything on Netflix
+            </p>
+            <a
+              href="#"
+              class="btn w-64 rounded-[2px] px-[1.3rem] py-[0.8rem] text-[1rem] uppercase"
+              >watch free for 30 Days</a
+            >
+          </div>
+          <table class="mt-8 w-full">
+            <thead>
+              <tr>
+                <th class="py-6 text-center uppercase"></th>
+                <th class="py-6 text-center uppercase">Basic</th>
+                <th class="py-6 text-center uppercase">Standard</th>
+                <th class="py-6 text-center uppercase">Premium</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-400">
+              <tr class="bg-[#222]">
+                <td class="px-5 py-2">
+                  Monthly price after free month ends on 6/19/19
+                </td>
+                <td class="py-2 text-center">$8.99</td>
+                <td class="py-2 text-center">$12.99</td>
+                <td class="py-2 text-center">$15.99</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-2">HD Available</td>
+                <td class="py-2 text-center"><i class="fas fa-times"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+              </tr>
+              <tr class="bg-[#222]">
+                <td class="px-5 py-2">Ultra HD Available</td>
+                <td class="py-2 text-center"><i class="fas fa-times"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-times"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="px-5 py-2">
+                  Screens you can watch on at the same time
+                </td>
+                <td class="py-2 text-center">1</td>
+                <td class="py-2 text-center">2</td>
+                <td class="py-2 text-center">4</td>
+              </tr>
+              <tr class="bg-[#222]">
+                <td class="px-5 py-2">
+                  Watch on your laptop, TV, phone and tablet
+                </td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="px-5 py-2">unlimited movies and TV shows</td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+              </tr>
+              <tr class="bg-[#222]">
+                <td class="px-5 py-2">Cancel anytime</td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="px-5 py-2">First month free</td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+                <td class="py-2 text-center"><i class="fas fa-check"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="mx-auto my-4 w-full max-w-[75%] overflow-auto text-sm text-white"
+    >
+      <p class="mb-8">Question? Call 1-234-567/8910</p>
+      <div class="footer-cols my-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Ways To Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem Gift Cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Buy Gift Cards</a></li>
+          <li><a href="#">Cookie Preference</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
